@@ -1,0 +1,75 @@
+/* Body */
+
+.menu {
+  background: #e3d8c2 url('images/menu-bg.jpg');
+  left: -400px; /* прячем меню */
+  height: 100%;
+  position: fixed;
+  width: 25%;
+  z-index: 10000;
+}
+ 
+ 
+/* Basic CSS */
+ 
+.background {
+  -webkit-background-size: cover;
+     -moz-background-size: cover;
+       -o-background-size: cover;
+          background-size: cover;
+}
+ 
+.menu ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+ 
+.menu li {
+  border-bottom: 1px solid #0f5b6e;
+  line-height: 45px;
+  padding-bottom: 3px;
+  padding-top: 3px;
+}
+ 
+.menu li:hover {
+  cursor: pointer;
+  }
+ 
+.menu a {
+  color: #fff;
+  font-size: 15px;
+  text-decoration: none;
+  text-transform: uppercase;
+}
+ 
+.icon-close {
+	width: 50%;
+	float: left;
+	    cursor: pointer;
+    font-size: 20px;
+    margin-left: -15px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+}
+.menu-logo {
+    text-align: center;
+}
+.icon-menu {
+    color: #fff;
+	z-index: 5;
+    cursor: pointer;
+    font-size: 20px;
+    margin-left: -15px;
+    padding-bottom: 25px;
+    padding-left: 25px;
+    padding-top: 25px;
+    position: fixed;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+ 
+.icon-menu img {
+  margin-right: 5px;
+}

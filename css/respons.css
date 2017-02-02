@@ -1,0 +1,133 @@
+@media screen and (max-width: 768px) {
+	
+	
+	.logo img {
+		width: 100%;
+}
+
+.logo2 > img {
+    width: 100%;
+}
+.text_block2 > img {
+    width: 100%;
+}
+.line2 > img {
+	width: 100%;
+}
+.loginlk {
+	text-align: center;
+}
+.zakup img {
+    width: 100%;
+	margin-top: 15px;
+}
+.postavki img {
+    width: 100%;
+	margin-top: 15px;
+}
+.f1_text {
+    margin-top: 10px;
+	text-align: center;
+}
+
+.partners  .owl-prev {
+    display:none;
+	background: none;
+}
+
+.partners  .owl-next {
+    display:none;
+	background: none;
+}
+
+
+.f2_text {
+    border-top: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+	text-align: center;
+}
+
+
+.f3_text {
+    border-top: 1px solid;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-top: 15px;
+	text-align: center;
+}
+.f4_text {
+    margin-top: 20px;
+	text-align: center;
+}
+
+.menu {
+	left: -100%; /* прячем меню */
+    position: absolute;
+    top: 0;
+	width: 100%;
+}
+.linemenuleft img {
+	width:100%;
+}
+
+.icon-menu {
+    position: relative;
+}
+.first {
+    height: 780px;
+}
+.partners h1 {
+    font-size: 35px;
+}
+.tittle h2 {
+    font-size: 35px;
+}
+
+.leftmenufooter ul {
+    margin-top:10px;
+    margin-bottom:10px;
+}
+.leftmenufooter li {
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+.copyright {
+    float: none;
+}
+
+.language {
+    bottom: 0px;
+    position: relative;
+}
+
+	
+}
+
+@media screen and (max-width: 1366px) {
+	
+	.language {
+    margin-top: 20px;
+}
+
+.menu-logo p {
+    font-size: 25px;
+}
+.menuleftar a {
+    font-size: 18px;
+}
+
+.menu-logo img {
+    width: 30%;
+}
+
+.registrationlmenu a {
+    font-size: 16px;
+}
+
+.loginlk a {
+    font-size: 16px;
+}
+	
+}

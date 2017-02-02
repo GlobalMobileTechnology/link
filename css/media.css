@@ -1,0 +1,159 @@
+/*==========  Desktop First Method  ==========*/
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+.nav > li > a {
+    font-size: 20px;;
+}
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+.nav > li > a {
+    font-size: 14px;
+}
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+	
+	.opentable {
+    background-image: url("../img/opentable.png");
+    background-repeat: no-repeat;
+    display: block;
+    height: 30px;
+    margin-right: 0;
+    margin-top: 0;
+    position: relative;
+    right: 0;
+    text-align: center;
+	margin-bottom:10px;
+
+}
+	
+	.itemzakupitog .txt {
+    margin-top: 20px;
+    text-align: center;
+}
+	.profilefil .search {
+    margin-top: 10px;
+}
+	.filterzakup .profilefil input {
+    width: 100%;
+}
+	.docsliderprof .owl-nav {
+    display: none;
+}
+	
+	.itemnews .txt {
+    text-align: center;
+}
+
+	.buttonmore {
+    text-align: center;
+}
+	.itemnews .ttl {
+    margin-top: 15px;
+    text-align: center;
+}
+
+	.itemnews .date {
+    text-align: center !important;
+}
+	
+	.imagenews {
+    text-align: center !important;
+}
+
+	.listpostavshik .buttonlist {
+			background-color: rgb(58, 183, 153);
+    border-radius: 10px;
+    color: #fff;
+    font-size: 7px;
+    padding: 6px;
+}
+.listpostavshik .scrolling-table tbody {
+    display: block;
+    height: 213px;
+    overflow-x: hidden;
+    overflow-y: auto;
+    width: 100%;
+}
+.listpostavshik .scrolling-table {
+     width: 100% !important;
+}
+	
+.reglogin {
+    margin-top: 0;
+    padding-bottom: 20px;
+    text-align: center;
+}
+.logo {
+    text-align: center;
+}
+
+.adress {
+    margin-top: 0;
+    text-align: center;
+}
+
+.leftfooter a {
+    color: rgb(0, 0, 0);
+    display: block;
+    font-size: 20px;
+    text-align: center;
+	margin-right: 0;
+	margin-bottom: 3px;
+}
+
+.rightfooter {
+    text-align: center;
+}
+.regbtn {
+    text-align: center;
+}
+
+.form-registration h2 {
+    text-align: center;
+}
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (max-width : 480px) {
+	
+}
+
+/* Custom, iPhone Retina */
+@media only screen and (max-width : 320px) {
+
+}
+
+
+/*==========  Mobile First Method  ==========*/
+
+/* Custom, iPhone Retina */
+@media only screen and (min-width : 320px) {
+
+}
+
+/* Extra Small Devices, Phones */
+@media only screen and (min-width : 480px) {
+
+}
+
+/* Small Devices, Tablets */
+@media only screen and (min-width : 768px) {
+
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (min-width : 992px) {
+
+}
+
+ /* Large Devices, Wide Screens */
+@media only screen and (min-width : 1200px) {
+
+}
