@@ -232,11 +232,10 @@ img.p4 {
 }
 .line2 {
     text-align: center;
-	margin-bottom: 90px;
 }
-.logo2 {
+/* .logo2 {
     margin-top: 25px;
-}
+} */
 .logo2 p {
     margin-top: 40px;
 	font-size: 19px;
@@ -447,7 +446,7 @@ img.p4 {
 }
 .language {
     bottom: 50px;
-    position: absolute;
+    position: absolute !important;
 }
 footer {
     border-top: 4px solid #526e69;
@@ -470,4 +469,13 @@ footer {
 }
 .rightfooter a {
     text-decoration: none;
+}
+.zakupchikamlp {
+	margin:0px !important;
+	padding:0px !important;
+}
+.slimScrollBar {
+  background: rgba(0,0,0,0) !important;
+  opacity: 0 !important;
+  z-index: 0 !important;
 }
